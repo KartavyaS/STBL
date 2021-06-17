@@ -1,0 +1,81 @@
+#welcome {
+    height: 800px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: cyan;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: table;
+z-index: 1;
+}
+
+body {
+    margin: 0px;
+    padding-top: 800px;
+}
+.inner_div{
+display:table-cell;
+position: relative;
+vertical-align: middle;
+text-align: center;
+
+}
+.image_profile{
+border-radius: 50%;
+width: 200px;    
+}
+h1{
+font-size: 40px;
+line-height: 1.2;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+
+}
+#name{
+font-size: 30px;
+line-height: 1.2;
+    font-family: cursive;
+}
+.line{
+height:6px;
+background-color: black;
+width: 70px;
+margin: 8px auto;
+}
+#bio{
+ text-align: center;
+font-size: 40px;
+background-image: url("");
+}
+p{
+font-size:20px;
+margin: 25px auto;
+line-height: 1.3;
+max-width: 450px;
+
+}
+.menu{
+list-style: none;
+font-family: sans-serif;
+position:absolute;
+top:10px;
+cursor: pointer;
+z-index: 2;
+}
+.links{
+ font-size: 20px;
+    color: aqua;
+padding:5px 9px;
+float: left;
+
+}
+a{
+text-decoration:none;
+
+}
+html{
+scroll-behavior: smooth;
+}
